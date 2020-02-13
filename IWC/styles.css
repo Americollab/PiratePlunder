@@ -1,0 +1,205 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.chests {
+    border: 2px solid;
+    border-color: white;
+    padding: 2%;
+    margin: .5%;
+    z-index:3;
+}
+.transp{
+    background-color: transparent;
+    border: none;
+}
+.rowHeight{
+    height: 38;
+}
+
+.box {
+    width: 9%;
+    background-color: transparent;
+    z-index: 4;
+}
+.side {
+    width: 9%;
+}
+.hit{
+    width: 9%;
+    background-image: url(images/HitAndMiss/HoleJewels.png); 
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.miss{
+    width: 9%;
+    background-image: url(images/HitAndMiss/Hole.png); 
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.here{
+    background-color: green;
+}
+.hide{
+    display: none;
+}
+.disp{
+    background-color: black;
+    width: 30px;
+    height: 30px;
+}
+.LCHd{
+    width: 27%;
+    height: 38px;
+}
+.TCHd{
+    width: 43px;;
+    height: 190px;
+}
+.SQCHd{
+    width: 18%;
+    height: 76px;
+}
+.SCHd{
+    width: 18%;
+    height: 38px;
+}
+.SCHVd{
+    width: 43px;
+    height: 76px;
+}
+.BCHd{
+    width: 27%;
+    height: 76px;
+}
+
+.LCHpirate{
+    background-image: url(images/pirateChest/T_38by152.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.TCHpirate{
+    background-image: url(images/pirateChest/TS_38by190.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.SQCHpirate{
+    background-image: url(images/pirateChest/T_76by76.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.SCHpirate{
+    background-image: url(images/pirateChest/T_76by38.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.SCHVpirate{
+    background-image: url(images/pirateChest/TS_76by38.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.BCHpirate{
+    background-image: url(images/pirateChest/T_76by112.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.LCHnorse{
+    background-image: url(images/norseChest/1x4-horiz.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.TCHnorse{
+    background-image: url(images/norseChest/1x4-vert.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.SQCHnorse{
+    background-image: url(images/norseChest/2x2-horiz.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.SCHnorse{
+    background-image: url(images/norseChest/1x2-vert.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.SCHVnorse{
+    background-image: url(images/norseChest/1x2-vert.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.BCHnorse{
+    background-image: url(images/norseChest/2x3-horiz.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.mapP{
+    background-image: url(images/MAPS/pirate-map.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+}
+.mapViking{
+    background-image: url(images/MAPS/Viking-map.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+}
+.mapSpook{
+    background-image: url(images/MAPS/Spooky_418by456.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+}
+.boom{
+    background-image: url(images/HitAndMiss/Boom_1.gif);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.vikingMetal{
+    background-image: url(images/backgrounds/Metal.jpg);
+    background-size: cover;
+}
+.pirateG{
+    background-image: url(images/backgrounds/ahoymayteee_background_shovelflip.png);
+    background-size: contain;
+}
+.belowDeck{
+    background-image: url(images/backgrounds/belowDeck.jpg);
+    background-size: cover;
+}
+mark {
+  background-color: white;
+  color: black;
+}
+.pirateSpook{
+    background-image: url(images/backgrounds/Ghost_ayeeemaytee.png);
+    background-size: contain;
+}
+.settingsBG{
+    background-image: url(images/Settings_ShipWheel.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 3%;
+    height: 3em;
+}
+
