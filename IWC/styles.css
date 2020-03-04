@@ -186,10 +186,6 @@ time, mark, audio, video {
     background-image: url(images/backgrounds/belowDeck.jpg);
     background-size: cover;
 }
-mark {
-  background-color: white;
-  color: black;
-}
 .pirateSpook{
     background-image: url(images/backgrounds/Ghost_ayeeemaytee.png);
     background-size: contain;

@@ -26,13 +26,13 @@ $(document).ready(function(){
     
     function isTurn(){
         if(turn==2){
-            $(".namePlate2").addClass("mark");
-            $(".namePlate1").removeClass("mark");
+            $("#namePlate2").addClass("bg-warning");
+            $("#namePlate1").removeClass("bg-warning");
             p2moves = 0;
         }
         if(turn==1){
-            $(".namePlate1").addClass("mark");
-            $(".namePlate2").removeClass("mark");
+            $("#namePlate1").addClass("bg-warning");
+            $("#namePlate2").removeClass("bg-warning");
             p1moves = 0;
         }  
     }
